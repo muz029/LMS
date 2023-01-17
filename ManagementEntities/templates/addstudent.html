@@ -1,0 +1,21 @@
+<h1>Add Student</h1>
+
+<form action="addstudent/" method="post">
+{% csrf_token %}
+  StudentId:<br>
+  <input name="StudentId">
+  <br><br>
+  StudentName:<br>
+  <input name="StudentName">
+  <br><br>
+  Gender:<br>
+  <input name="Gender">
+  <br><br>
+  Year:<br>
+  <input name="Year">
+  <br><br>
+  Class:<br>
+  <input name="Class">
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
